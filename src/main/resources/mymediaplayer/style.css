@@ -1,0 +1,55 @@
+.button, MenuButton {
+    -fx-background-color: transparent;
+}
+
+#openButton {
+    -fx-background-image: url("../images/folder.png");
+    -fx-background-size: 25 25;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#playButton {
+    -fx-background-image: url("../images/play.png");
+    -fx-background-size: 25 25;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#pauseButton {
+    -fx-background-image: url("../images/pause.png");
+    -fx-background-size: 25 25;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#stopButton {
+    -fx-background-image: url("../images/stop.png");
+    -fx-background-size: 25 25;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#volumeButton {
+    -fx-background-image: url("../images/volume.png");
+    -fx-background-size: 25 25;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#exitButton, MenuButton {
+    -fx-border-color: black;
+    -fx-background-color: #f0f0f0;
+}
+
+#menu {
+    -fx-background-color: #f0f0f0;
+}
+
+BorderPane {
+    -fx-background-color: #000000;
+}
+
+#loadingText {
+    -fx-fill: white;
+}
